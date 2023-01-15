@@ -1,0 +1,92 @@
+html,body{
+  height:100%;
+  padding:0;
+  margin:0;
+}
+*{
+  box-sizing:border-box;
+}
+.box{
+  position: relative;
+  width:900px;
+  height:650px;
+  background-color:grey;
+}
+
+.container{
+  
+  width:75%;
+  height:100%;
+  background-color:#ccc;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+ .menu{
+  width: 20%;
+}
+
+.casilla {
+  position: absolute;
+ 
+}
+
+.puchero {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 42%;
+}
+
+body{
+  display: flex;
+  
+}
+.menu{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu h1{
+  text-align: center;
+  width: 100%;
+}
+
+.menu button{
+  width: 50%;
+  height: 5%;
+}
+
+.menu h2{
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+.menu h3{
+  width: 100%;
+  text-align: center;
+}
+
+.menu h4{
+  display: flex;
+  width: 20%;
+  border: solid;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu p{
+  width: 50%;
+  font-size: 200%;
+  text-align: center;
+  font-style: italic ;
+
+}
+
+.menu button{
+  margin-top: 7.5%;
+}
